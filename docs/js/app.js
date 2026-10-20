@@ -140,7 +140,7 @@ function openDetail(id){
   const b=BOOKS.find(x=>x.id===id);if(!b)return;
   cur=b;lastY=window.scrollY;
   $('#backLbl').textContent=state.view==='guides'?'독서 지도안':'도서 찾기';
-  $('#dCover').innerHTML='<div class="cv" style="--tint:'+b.tint+'">'+coverHtml(b,true)+'</div>';
+  $('#dCover').innerHTML='<div class="cv'+(b.cover?'':' nocv')+'" style="--tint:'+b.tint+'">'+coverHtml(b,true)+'</div>';
   const kw=(b.keywords||[]).map(k=>'<button type="button" data-kw="'+esc(k)+'">'+esc(k)+'</button>').join('');
   let flow='';
   if(!b.flow);
