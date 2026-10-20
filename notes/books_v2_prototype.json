@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "grades": [
+    {
+      "id": "low",
+      "label": "초등 저학년"
+    },
+    {
+      "id": "high",
+      "label": "초등 고학년"
+    },
+    {
+      "id": "mid",
+      "label": "중학생"
+    },
+    {
+      "id": "hi",
+      "label": "고등학생"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dream",
+      "label": "꿈 · 진로"
+    },
+    {
+      "id": "feel",
+      "label": "감정 · 마음"
+    },
+    {
+      "id": "future",
+      "label": "미래"
+    },
+    {
+      "id": "happy",
+      "label": "행복"
+    },
+    {
+      "id": "story",
+      "label": "추리 · 협동"
+    }
+  ],
+  "books": [
+    {
+      "id": "udang",
+      "title": "우당탕 마을의 꿈 도둑",
+      "authors": "백혜영 · 이희은",
+      "by": "백혜영 지음 · 이희은 그림",
+      "publisher": "뜨인돌어린이",
+      "series": "초등학교 1-2학년 한 학기 한 권 읽기",
+      "guide": null,
+      "grades": [
+        "low"
+      ],
+      "topics": [
+        "dream",
+        "future",
+        "story"
+      ],
+      "tint": "#b9a6e8",
+      "cover": {
+        "kind": "book",
+        "alt": "우당탕 마을의 꿈 도둑 표지",
+        "src": "assets/covers/udang.webp"
+      },
+      "info": "8차시 수업",
+      "lede": "꿈 도둑이 나타난 우당탕 마을 이야기를 소리 내어 읽고, 인물의 속마음을 헤아리며 나의 꿈을 소개해 보는 8차시 수업입니다.",
+      "keywords": [
+        "꿈",
+        "장래 희망",
+        "미래",
+        "추리",
+        "협동"
+      ],
+      "flow": {
+        "type": "session",
+        "items": [
+          "책과 만나기",
+          "소리 내어 읽어 보기",
+          "사건 순서 파악하기",
+          "등장인물 파악하기",
+          "속마음 알아보기",
+          "실감 나게 표현하기",
+          "나의 꿈 소개하기",
+          "이야기 확장하기"
+        ]
+      },
+      "curri": [
+        "1-2 국어 2",
+        "1-2 국어 10",
+        "2-1 국어 9",
+        "2-1 국어 11",
+        "2-2 국어 1",
+        "2-2 국어 7",
+        "2-2 국어 11"
+      ],
+      "note": null,
+      "files": [
+        {
+          "k": "teacher",
+          "label": "교사용 지도안",
+          "pages": 24,
+          "href": "pdf/udang_teacher.pdf"
+        },
+        {
+          "k": "student",
+          "label": "학생용 활동지",
+          "pages": 12,
+          "href": "pdf/udang_student.pdf"
+        }
+      ],
+      "previews": [
+        {
+          "cap": "책을 읽으며 · 동물 친구들의 실감 나는 말.말.말.",
+          "src": "assets/previews/udang_p03.jpg"
+        },
+        {
+          "cap": "책을 읽으며 · 이야기 기차를 완성해 보아요!",
+          "src": "assets/previews/udang_p04.jpg"
+        },
+        {
+          "cap": "책을 다 읽고 나서 · 우리 반 꿈 가게로 초대합니다!",
+          "src": "assets/previews/udang_p09.jpg"
+        }
+      ],
+      "prevLabel": "학생용 활동지 미리보기"
+    },
+    {
+      "id": "jin",
+      "title": "14살부터 시작하는 나의 첫 진로 수업",
+      "authors": "학연플러스 편집부",
+      "by": "학연플러스 편집부 지음 · 김신혜 옮김",
+      "publisher": "뜨인돌",
+      "series": "청소년 한 학기 한 권 읽기",
+      "guide": "신용석 (정신여자중학교 교사)",
+      "grades": [
+        "mid"
+      ],
+      "topics": [
+        "dream",
+        "future",
+        "happy"
+      ],
+      "tint": "#f0b6cc",
+      "cover": {
+        "kind": "book",
+        "alt": "14살부터 시작하는 나의 첫 진로 수업 표지",
+        "src": "assets/covers/jin.webp"
+      },
+      "info": "독서 전 · 중 · 후 수업",
+      "lede": "하고 싶은 것도 좋아하는 것도 없는 나, 이대로 괜찮을까? 일과 행복, 미래를 스스로 생각해 보도록 이끄는 진로 독서 수업입니다.",
+      "keywords": [
+        "일",
+        "미래",
+        "행복",
+        "진로",
+        "꿈"
+      ],
+      "flow": {
+        "type": "phase",
+        "items": [
+          {
+            "n": "독서 전",
+            "l": [
+              "일에 대한 내 생각 파악하기",
+              "표지를 보고 책 내용 예측하기"
+            ]
+          },
+          {
+            "n": "독서 중",
+            "l": [
+              "독서 일지 쓰기",
+              "책에 소개된 직업 브로셔 만들기",
+              "좋아하고 잘하는 일 탐색하기 (다중지능검사)",
+              "행복 나침반 · 버킷리스트 20가지",
+              "미래 직업 세계 포스터 만들기",
+              "진로 로드맵 그리기"
+            ]
+          },
+          {
+            "n": "독서 후",
+            "l": [
+              "SNS로 책 소개하기",
+              "감상 · 평가"
+            ]
+          }
+        ]
+      },
+      "curri": [],
+      "note": "표지 문구: 일본 아마존 베스트셀러, 누적 판매 44만 부",
+      "files": [
+        {
+          "k": "teacher",
+          "label": "교사용 지도안",
+          "pages": 24,
+          "href": "pdf/jin_teacher.pdf"
+        },
+        {
+          "k": "student",
+          "label": "학생용 활동지",
+          "pages": 26,
+          "href": "pdf/jin_student.pdf"
+        }
+      ],
+      "previews": [
+        {
+          "cap": "독서 전 · 책 내용 예측해 보기",
+          "src": "assets/previews/jin_p04.jpg"
+        },
+        {
+          "cap": "독서 중 · 행복 나침반",
+          "src": "assets/previews/jin_p16.jpg"
+        },
+        {
+          "cap": "독서 중 · 나의 버킷리스트 20가지",
+          "src": "assets/previews/jin_p19.jpg"
+        }
+      ],
+      "prevLabel": "학생용 활동지 미리보기"
+    },
+    {
+      "id": "mind",
+      "title": "오늘 내 마음에 어울리는 말",
+      "authors": "임민영",
+      "by": "임민영",
+      "publisher": null,
+      "series": null,
+      "guide": null,
+      "grades": [],
+      "topics": [
+        "feel"
+      ],
+      "tint": "#f4a6c1",
+      "cover": {
+        "kind": "sheet",
+        "alt": "활동지 첫 장",
+        "flag": "활동지",
+        "src": "assets/previews/mind_p01.jpg"
+      },
+      "info": "활동지 7쪽",
+      "lede": "읽은 책 속 인물과 나의 마음을 감정 어휘로 표현해 보는 활동지입니다. 감정 빙고, 감정 사전, 마음 일기로 이어집니다.",
+      "keywords": [
+        "감정",
+        "어휘",
+        "마음"
+      ],
+      "flow": {
+        "type": "sheets",
+        "items": [
+          "오늘 내 마음에 어울리는 말은?",
+          "감정 어휘 빙고!",
+          "등장인물 마음 들여다보기",
+          "나의 감정 어휘 지도",
+          "나만의 감정 사전 만들기",
+          "오늘의 마음 일기 쓰기",
+          "책과 나를 연결하기"
+        ]
+      },
+      "curri": [],
+      "note": null,
+      "files": [
+        {
+          "k": "sheet",
+          "label": "활동지",
+          "pages": 7,
+          "href": "pdf/mind_sheet.pdf"
+        }
+      ],
+      "previews": [
+        {
+          "cap": "오늘 내 마음에 어울리는 말은?",
+          "src": "assets/previews/mind_p01.jpg"
+        },
+        {
+          "cap": "감정 어휘 빙고!",
+          "src": "assets/previews/mind_p02.jpg"
+        },
+        {
+          "cap": "나의 감정 어휘 지도",
+          "src": "assets/previews/mind_p04.jpg"
+        }
+      ],
+      "prevLabel": "활동지 미리보기"
+    }
+  ]
+}

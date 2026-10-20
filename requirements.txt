@@ -1,0 +1,4 @@
+# scripts/ 안의 파이썬 도구용 (PDF 압축, 표지/미리보기 만들기, books.json 점검)
+# 사이트 자체는 설치할 것이 없습니다.
+pymupdf
+pillow

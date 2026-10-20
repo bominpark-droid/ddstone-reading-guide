@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>독서 지도안 자료실</title>
+<meta name="description" content="학년과 주제로 책을 고르고 교사용 지도안과 학생용 활동지를 바로 받아 보세요.">
+<meta name="theme-color" content="#15533d">
+<link rel="icon" href="assets/ui/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gaegu:wght@700&family=Jua&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="tools wrap" id="tools" hidden>
+  <div class="tools-row">
+    <span><strong>시안</strong> · 실제 자료 3권으로 만든 화면입니다. 눌러서 써 보세요.</span>
+    <span class="seg" role="group" aria-label="화면 크기">
+      <button type="button" id="devPhone" aria-pressed="false">폰 크기</button><button type="button" id="devPc" aria-pressed="true">PC 크기</button>
+    </span>
+  </div>
+  <details>
+    <summary>임시로 넣은 값 보기</summary>
+    <ul>
+      <li>상단 일러스트, 책더미, 아이콘 4개는 보내주신 목업 이미지에서 잘라 쓴 임시 자리입니다. 실제로는 원본 일러스트 파일로 바꿉니다.</li>
+      <li>왼쪽 메뉴의 홈과 독서 지도안 화면은 목업에 도서 찾기 화면만 있어서 제가 구성했습니다.</li>
+      <li>나의 첫 진로 수업은 파일에 학년이 청소년으로만 적혀 있어 중학생으로 임시 배정했습니다.</li>
+      <li>오늘 내 마음에 어울리는 말은 학년, 출판사, 교사용 자료가 파일에 없어 학년 미정으로 표시했고, 표지 대신 활동지 첫 장을 썼습니다.</li>
+      <li>주제 분류와 소개 문장은 시안용이고, PDF 버튼은 아직 파일에 연결하지 않았습니다.</li>
+    </ul>
+  </details>
+</div>
+
+<div class="stage" id="stage" data-device="pc">
+<div class="app" id="app">
+
+<div class="wrap hero-wrap">
+  <header class="hero">
+    <svg class="star" viewBox="0 0 30 70" aria-hidden="true"><path d="M15 0V38" stroke="#fdf08d" stroke-width="2"/><path d="M15 36l4.2 8.6 9.4 1.2-6.9 6.5 1.8 9.3L15 57l-8.5 4.6 1.8-9.3-6.9-6.5 9.4-1.2z" fill="#fdf08d" stroke="#e2cc4a" stroke-width="1.2" stroke-linejoin="round"/></svg>
+    <div class="hero-in">
+      <p class="kicker"><span class="rays y" aria-hidden="true"></span><span>어떤 책으로 <em>독서 프로그램</em>을 하실지 궁금하시죠?</span></p>
+      <h1><span class="hw">한 눈에 보는</span><span class="hy">독서 지도안 프로그램!</span></h1>
+      <svg class="swoosh" viewBox="0 0 400 16" preserveAspectRatio="none" aria-hidden="true"><path d="M5 11C90 3 230 3 395 8" fill="none" stroke="#f2548f" stroke-width="6" stroke-linecap="round"/></svg>
+    </div>
+    <img class="strip" src="assets/ui/hero_strip.webp" width="904" height="159" alt="">
+  </header>
+</div>
+
+<section class="wrap intro">
+  <span class="rays p" aria-hidden="true"></span>
+  <p>도서 검색부터 독서 지도안 확인까지,<br>사서 선생님의 <span class="pk">독서 프로그램 준비</span>를 <mark>쉽고 편하게</mark> 도와드립니다!</p>
+  <span class="rays y flip" aria-hidden="true"></span>
+</section>
+
+<div class="wrap">
+<section class="win" aria-label="뜨인돌 독서 지도안 프로그램">
+  <div class="win-bar">
+    <svg class="i" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px"><path d="M12 6C10 4.6 7 4 3.5 4.4v13c3.5-.4 6.5.2 8.5 1.6 2-1.4 5-2 8.5-1.6v-13C17 4 14 4.6 12 6zM12 6v13"/></svg>
+    <span>뜨인돌 <b>독서</b> 지도안 프로그램</span>
+    <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+  </div>
+
+  <div class="win-body" id="winBody">
+    <div class="gtabs-wrap" id="tabsBar"><nav class="gtabs" id="tabs" aria-label="학년"></nav></div>
+    <div class="win-main">
+      <nav class="side" aria-label="메뉴">
+        <button type="button" class="nav" data-view="home"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7M6 10v10h12V10M10 20v-5h4v5"/></svg>홈</button>
+        <button type="button" class="nav" data-view="find" aria-current="page"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>도서 찾기</button>
+        <button type="button" class="nav" data-view="guides"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7zM14 3v5h5M10 13h6M10 17h6"/></svg>독서 지도안</button>
+      </nav>
+      <div class="pane">
+        <div id="vHome" hidden>
+          <div class="hello">
+            <h2>사서 선생님, 어서 오세요</h2>
+            <p>학년과 주제로 책을 고르고, 교사용 지도안과 학생용 활동지를 바로 받아 보세요.</p>
+            <ol class="steps">
+              <li class="step g-low"><b>1</b><span>학년 고르기<small>위쪽 탭에서 선택</small></span></li>
+              <li class="step g-high"><b>2</b><span>도서 찾기<small>제목, 저자, 주제로 검색</small></span></li>
+              <li class="step g-mid"><b>3</b><span>자료 받기<small>교사용 · 학생용 PDF</small></span></li>
+            </ol>
+            <button type="button" class="pbtn" data-view="find">도서 찾으러 가기</button>
+          </div>
+        </div>
+        <div id="vList">
+          <label class="search" for="q">
+            <svg class="i" viewBox="0 0 24 24" aria-hidden="true" style="width:24px;height:24px;color:var(--ink)"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+            <input id="q" type="search" placeholder="학년, 주제, 키워드로 도서를 검색해 보세요." autocomplete="off" enterkeyhint="search">
+            <button type="button" class="x" id="qx" hidden aria-label="검색어 지우기"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+          </label>
+          <div class="topics"><span class="topics-l">주제</span><div class="chips" id="topics" role="group" aria-label="주제"></div></div>
+          <div class="rbar" id="rbar" aria-live="polite"></div>
+          <ul class="grid" id="grid"><li class="empty"><p style="margin:0">도서 목록을 불러오는 중이에요.</p></li></ul>
+          <ul class="flist" id="flist" hidden></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="detail" hidden aria-labelledby="dTitle">
+    <div class="d-top"><button type="button" class="back" id="back"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg><span id="backLbl">도서 찾기</span></button></div>
+    <div class="d-grid">
+      <div class="d-cover" id="dCover"></div>
+      <div class="d-info" id="dInfo"></div>
+    </div>
+    <div class="d-actions"><div class="act" id="dAct"></div></div>
+  </section>
+</section>
+</div>
+
+<section class="wrap tiles-wrap" aria-label="이용 안내">
+  <ul class="tiles">
+    <li class="tile"><img src="assets/ui/ic_pink.webp" width="152" height="152" alt=""><p>학년별 · 주제별<b>도서 검색</b></p></li>
+    <li class="tile"><img src="assets/ui/ic_blue.webp" width="152" height="152" alt=""><p>한눈에 보는<b>독서 지도안</b></p></li>
+    <li class="tile"><img src="assets/ui/ic_yellow.webp" width="152" height="152" alt=""><p>토론, 글쓰기 등<b>활동 아이디어</b></p></li>
+    <li class="tile"><img src="assets/ui/ic_green.webp" width="152" height="152" alt=""><p>수업 · 독서모임에<b>바로 활용하는 자료</b></p></li>
+  </ul>
+</section>
+
+<footer class="wrap foot-wrap">
+  <div class="foot">
+    <img class="stack" src="assets/ui/stack.webp" width="198" height="250" alt="">
+    <div class="blob"><p class="hand"><span class="h1">좋은 책이</span><span class="h2"><u>좋은 독서 프로그램</u>이 됩니다.</span></p></div>
+    <span class="rays y" aria-hidden="true"></span>
+  </div>
+  <div class="pub">
+    <img class="pub-logo" src="assets/ui/ddstone_logo.png" width="172" height="96" alt="뜨인돌">
+    <p class="pub-info">
+      <span>주소 경기도 파주시 회동길 337-9(서패동)</span>
+      <span>대표전화 02-337-5252</span>
+      <span>FAX 031-947-5868</span>
+      <span>원고투고 ddstone@ddstone.com</span>
+      <span>문의 webmaster@ddstone.com</span>
+    </p>
+  </div>
+</footer>
+
+</div>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="활동지 크게 보기">
+  <button type="button" class="lb-x" id="lbX" aria-label="닫기"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <img id="lbImg" alt="">
+  <p id="lbCap"></p>
+  <div class="lb-nav"><button type="button" id="lbPrev">이전</button><button type="button" id="lbNext">다음</button></div>
+</div>
+<noscript><p style="padding:16px;text-align:center">이 페이지를 보려면 자바스크립트를 켜 주세요.</p></noscript>
+<script src="js/app.js"></script>
+</body>
+</html>
