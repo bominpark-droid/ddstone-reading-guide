@@ -482,7 +482,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "떼굴떼굴 떼구르르 표지",
+    "src": "assets/covers/kid-12.webp"
+   }
   },
   {
    "id": "kid-13",
@@ -1172,7 +1177,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "가짜진짜목격담 표지",
+    "src": "assets/covers/teen-03.webp"
+   }
   },
   {
    "id": "teen-04",
@@ -1205,7 +1215,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "내 이름은 오랑 표지",
+    "src": "assets/covers/teen-04.webp"
+   }
   },
   {
    "id": "teen-05",
@@ -1238,7 +1253,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "인플루언서 소녀에게 표지",
+    "src": "assets/covers/teen-05.webp"
+   }
   },
   {
    "id": "teen-06",
@@ -1375,7 +1395,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "심야의 비밀 수영 클럽 표지",
+    "src": "assets/covers/teen-08.webp"
+   }
   },
   {
    "id": "teen-09",
@@ -1399,7 +1424,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "안녕, 내 뻐끔거리는 단어들 표지",
+    "src": "assets/covers/teen-09.webp"
+   }
   },
   {
    "id": "teen-10",
@@ -1484,7 +1514,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "용기의 쓸모 표지",
+    "src": "assets/covers/teen-11.webp"
+   }
   },
   {
    "id": "high-01",
@@ -1560,7 +1595,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "구만 볼트가 달려간다 표지",
+    "src": "assets/covers/high-02.webp"
+   }
   },
   {
    "id": "high-03",
@@ -1652,7 +1692,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "닭답게 살 권리 소송 사건 표지",
+    "src": "assets/covers/high-04.webp"
+   }
   },
   {
    "id": "high-05",
@@ -1894,7 +1939,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "어느 특별한 다과회 표지",
+    "src": "assets/covers/high-09.webp"
+   }
   },
   {
    "id": "high-10",
@@ -1979,7 +2029,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "우리들의 아지트 표지",
+    "src": "assets/covers/high-11.webp"
+   }
   },
   {
    "id": "high-12",
@@ -2106,7 +2161,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "합리적인 의심 표지",
+    "src": "assets/covers/high-14.webp"
+   }
   },
   {
    "id": "high-15",
@@ -2259,7 +2319,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "마음대로 학교 표지",
+    "src": "assets/covers/low-02.webp"
+   }
   },
   {
    "id": "low-03",
@@ -2360,7 +2425,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "야호슈퍼의 비밀 표지",
+    "src": "assets/covers/low-04.webp"
+   }
   },
   {
    "id": "mind",
@@ -2563,7 +2633,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "걱정이다 걱정 표지",
+    "src": "assets/covers/mid-01.webp"
+   }
   },
   {
    "id": "mid-02",
@@ -2596,7 +2671,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "고양이 마리, 여행을 떠나다! 표지",
+    "src": "assets/covers/mid-02.webp"
+   }
   },
   {
    "id": "mid-03",
@@ -2676,7 +2756,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "꼴통과 불량 아저씨 표지",
+    "src": "assets/covers/mid-04.webp"
+   }
   },
   {
    "id": "mid-05",
@@ -2752,7 +2837,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "노경실 선생님이 들려주는 어린이 탈무드 표지",
+    "src": "assets/covers/mid-06.webp"
+   }
   },
   {
    "id": "mid-07",
@@ -2776,7 +2866,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "놀이터의 회오리바람 표지",
+    "src": "assets/covers/mid-07.webp"
+   }
   },
   {
    "id": "mid-08",
@@ -3277,7 +3372,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "햄스터 실종 사건 표지",
+    "src": "assets/covers/mid-17.webp"
+   }
   },
   {
    "id": "mid-18",
@@ -3530,7 +3630,12 @@
       "mb": 6.5
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "고지식 박사의 무럭무럭쑥쑥 알약 표지",
+    "src": "assets/covers/mid-22.webp"
+   }
   }
  ]
 }

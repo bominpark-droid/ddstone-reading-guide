@@ -2,3 +2,4 @@
 # 사이트 자체는 설치할 것이 없습니다.
 pymupdf
 pillow
+olefile

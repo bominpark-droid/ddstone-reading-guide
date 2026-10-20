@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 inv = json.loads((ROOT / "notes/drive_inventory.json").read_text(encoding="utf-8"))
 rich = {b["id"]: b for b in json.loads((ROOT / "notes/rich_books.json").read_text(encoding="utf-8"))["books"]}
+hwp_cover = {v["title"]: f"assets/covers/{k}.webp" for k, v in json.loads((ROOT / "notes/hwp_covers.json").read_text(encoding="utf-8"))["books"].items()}
 pages = json.loads((ROOT / "notes/pdf_pages.json").read_text()) if (ROOT / "notes/pdf_pages.json").exists() else {}
 
 GRADES = [
@@ -170,6 +171,9 @@ for key, b in books.items():
             if r.get(k): book[k] = r[k]
         if r.get("series") and not book["series"]: book["series"] = r["series"]
         if r.get("note") and not book["note"]: book["note"] = r["note"]
+    hc = hwp_cover.get(b["title"])  # 한글 파일 안 표지 (hwp_covers.py 로 만든 그림)
+    if "cover" not in book and hc and (DOCS / hc).exists():
+        book["cover"] = {"kind": "book", "alt": f"{b['title']} 표지", "src": hc}
     if "cover" not in book:  # 표지 파일이 없으면 화면용 PDF 첫 장 (make_covers.py 로 만든 그림)
         for m in [m for m in mats if m["k"] != "answer"]:
             v = m.get("pdf", {}).get("view", "")
