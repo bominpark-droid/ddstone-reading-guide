@@ -1,0 +1,117 @@
+{
+ "_설명": "한글 파일만 있는 책의 표지. 한글 파일 안에 들어 있는 그림(BinData) 중 책 표지를 사람이 눈으로 골라 적은 표. scripts/hwp_covers.py 가 읽음. 키는 그림 파일 이름(docs/assets/covers/<키>.webp)이고, build_books.py 는 title 이 같은 책에만 붙임 (책 id 가 바뀌어도 엉뚱한 책에 붙지 않게). 너의 마음은 하늘과 같아(kid-09)는 한글 파일 6개 안에 표지 그림이 없어 비워 둠 (2026-10-20 확인)",
+ "books": {
+  "high-02": {
+   "hwp": "1iJY_gzd_hq6E9GdQO0oOIiwl2djNiRna",
+   "bin": "BIN0001.jpg",
+   "title": "구만 볼트가 달려간다"
+  },
+  "high-04": {
+   "hwp": "1FQ2VXF16aKD6JGbDukBF6hJx_DZZggXL",
+   "bin": "BIN0002.jpg",
+   "title": "닭답게 살 권리 소송 사건"
+  },
+  "high-09": {
+   "hwp": "1T_owPleH6JkOhiHV1KEZJrnVBhF2KRdQ",
+   "bin": "BIN000D.jpg",
+   "title": "어느 특별한 다과회"
+  },
+  "high-11": {
+   "hwp": "1cKUncORFIug78Fw1TRVMTyI0x6UX5vFw",
+   "bin": "BIN0009.jpg",
+   "title": "우리들의 아지트"
+  },
+  "high-14": {
+   "hwp": "1-xqs8WUDREnfwmjgIknzaPBIp8LdHl96",
+   "bin": "BIN0003.jpg",
+   "title": "합리적인 의심"
+  },
+  "kid-12": {
+   "hwp": "1QQfdAMjQMrofWke-fX602AlrtTkKPRiX",
+   "bin": "BIN0001.bmp",
+   "title": "떼굴떼굴 떼구르르"
+  },
+  "low-02": {
+   "hwp": "1tAyBDpAUaWrZab1QBmMUak58IJ2X_IWJ",
+   "bin": "BIN000B.jpg",
+   "title": "마음대로 학교"
+  },
+  "low-04": {
+   "hwp": "1NZMRhRWMnCIdrYIvDn4FMzrzA9ppAuCg",
+   "bin": "BIN0001.jpg",
+   "title": "야호슈퍼의 비밀"
+  },
+  "mid-01": {
+   "hwp": "1Hy34s3aTyiIF0mWdGxyL2LylzHPSGbv2",
+   "bin": "BIN0002.jpg",
+   "title": "걱정이다 걱정"
+  },
+  "mid-02": {
+   "hwp": "11w-pFRSZ61vj13-v6m9W9Y-QTJX8DJrS",
+   "bin": "BIN0006.jpg",
+   "title": "고양이 마리, 여행을 떠나다!"
+  },
+  "mid-04": {
+   "hwp": "1uB8Dc0m8Ue3kBYko-c7IKmo6UNs9AwdC",
+   "bin": "BIN0002.bmp",
+   "crop": [
+    362,
+    0,
+    690,
+    438
+   ],
+   "title": "꼴통과 불량 아저씨"
+  },
+  "mid-06": {
+   "hwp": "1g4M-PIEki5V-YFBE_ayU50itq8B9jVvE",
+   "bin": "BIN0002.jpg",
+   "title": "노경실 선생님이 들려주는 어린이 탈무드"
+  },
+  "mid-07": {
+   "hwp": "1hxU7yRDrABuFGwUCa_iafyB_hC-zITGo",
+   "bin": "BIN0007.jpg",
+   "title": "놀이터의 회오리바람"
+  },
+  "mid-17": {
+   "hwp": "172ywfUzqz6uPr6CXi7Mx4KssmJXRwgSv",
+   "bin": "BIN000B.jpg",
+   "title": "햄스터 실종 사건"
+  },
+  "teen-03": {
+   "hwp": "1mGOjRWiBMFOIJz1gp3f7CJE2fBieA94b",
+   "bin": "BIN0001.bmp",
+   "title": "가짜진짜목격담"
+  },
+  "teen-04": {
+   "hwp": "1Tam9IC_1K38Ds38GDXusPdKjG7h_BXpf",
+   "bin": "BIN0001.jpg",
+   "title": "내 이름은 오랑"
+  },
+  "teen-05": {
+   "hwp": "1uznDyvqPj3Fazkh7sHuu3byBcRaIdqz1",
+   "bin": "BIN0005.bmp",
+   "title": "인플루언서 소녀에게"
+  },
+  "teen-08": {
+   "hwp": "1yzG8w4sK2rTVeAx--B9u0Uj8TfLQUcHz",
+   "bin": "BIN000A.jpg",
+   "title": "심야의 비밀 수영 클럽"
+  },
+  "teen-09": {
+   "hwp": "1OJpLru-BED-BjmOgg2jPCGt58lUAs97D",
+   "bin": "BIN0004.bmp",
+   "title": "안녕, 내 뻐끔거리는 단어들"
+  },
+  "teen-11": {
+   "hwp": "1-l72Z5zLY2cOo-_vmw-xd3yt0DVyIpZ0",
+   "bin": "BIN000B.jpg",
+   "title": "용기의 쓸모"
+  },
+  "mid-22": {
+   "zip": "1MkzPKXrIJmWu5ES42Sqm4gY6PthQeDbn",
+   "member": "학생용",
+   "bin": "BIN0001.bmp",
+   "title": "고지식 박사의 무럭무럭쑥쑥 알약"
+  }
+ }
+}

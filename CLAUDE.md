@@ -54,7 +54,7 @@ books.json은 손으로 고치지 않고 스크립트로 다시 만듭니다.
 1. 드라이브 목록을 새로 읽어 notes/drive_inventory.json 을 갱신합니다 (2026-10-20에는 사용자 크롬으로 읽음. 형식은 notes/drive_inventory_raw.txt 참고).
 2. 새 PDF를 source-pdfs/<드라이브ID>.pdf 로 받습니다 (위의 curl 명령. 드라이브 커넥터로 받았다면 `python3 scripts/ingest_drive_downloads.py <tool-results 폴더>`).
 3. `python3 scripts/optimize_all.py` 로 화면용 사본을 만들고 쪽수를 notes/pdf_pages.json 에 모읍니다. 이어서 `python3 scripts/compare_pdfs.py --save` 로 원본과 똑같이 보이는지 쪽마다 확인합니다.
-4. `python3 scripts/make_covers.py` 로 카드용 첫 장 그림을 만듭니다.
+4. `python3 scripts/make_covers.py` 로 카드용 첫 장 그림을 만듭니다. 한글 파일만 있는 책은 한글 파일 안 표지 그림을 notes/hwp_covers.json 에 적고 `python3 scripts/hwp_covers.py` 로 만듭니다.
 5. `python3 scripts/build_books.py` 로 docs/data/books.json 을 다시 만듭니다. 제목 고치기, 시리즈 나누기 같은 예외는 이 스크립트 위쪽 표에 있습니다.
 6. `python3 scripts/validate_books.py`, 서버를 켜고 `node scripts/smoke_test.js` 로 점검합니다.
 
