@@ -397,7 +397,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "book",
+    "alt": "너의 마음은 하늘과 같아 표지",
+    "src": "assets/covers/kid-09.webp"
+   }
   },
   {
    "id": "kid-10",
