@@ -47,13 +47,19 @@
      "k": "sheet",
      "label": "독후 활동지",
      "pdf": {
-      "view": "https://drive.google.com/file/d/1wLiVUX0v45yKPueuAuL6VRR74Osah5f8/view",
-      "light": false,
+      "view": "pdf/1wLiVUX0v45yKPueuAuL6VRR74Osah5f8.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1wLiVUX0v45yKPueuAuL6VRR74Osah5f8",
-      "mb": 15.9
+      "mb": 15.9,
+      "pages": 8
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "9킬로미터 독후 활동지 첫 장",
+    "src": "assets/covers/p_1wLiVUX0v45yKPueuAuL6VRR74Osah5f8.webp"
+   }
   },
   {
    "id": "kid-02",
@@ -72,13 +78,19 @@
      "k": "sheet",
      "label": "독후 활동지",
      "pdf": {
-      "view": "https://drive.google.com/file/d/1dTaZzeQufnPiXRypbEAWhWhZBDUocI65/view",
-      "light": false,
+      "view": "pdf/1dTaZzeQufnPiXRypbEAWhWhZBDUocI65.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1dTaZzeQufnPiXRypbEAWhWhZBDUocI65",
-      "mb": 27.9
+      "mb": 27.9,
+      "pages": 8
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "강에서 지독한 냄새가 나요 독후 활동지 첫 장",
+    "src": "assets/covers/p_1dTaZzeQufnPiXRypbEAWhWhZBDUocI65.webp"
+   }
   },
   {
    "id": "kid-03",
@@ -102,13 +114,19 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1HGblDQAfnzHz8yRm6ePP-FPZcrPwwH-4/view",
-      "light": false,
+      "view": "pdf/1HGblDQAfnzHz8yRm6ePP-FPZcrPwwH-4.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1HGblDQAfnzHz8yRm6ePP-FPZcrPwwH-4",
-      "mb": 11.8
+      "mb": 11.8,
+      "pages": 8
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "계란 좀 빌려줄래요 독후 활동지 첫 장",
+    "src": "assets/covers/p_1HGblDQAfnzHz8yRm6ePP-FPZcrPwwH-4.webp"
+   }
   },
   {
    "id": "kid-04",
@@ -199,13 +217,19 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1mJGakiP18N89uYtIKIrUUrbEI4D3aQkh/view",
-      "light": false,
+      "view": "pdf/1mJGakiP18N89uYtIKIrUUrbEI4D3aQkh.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1mJGakiP18N89uYtIKIrUUrbEI4D3aQkh",
-      "mb": 37.4
+      "mb": 37.4,
+      "pages": 8
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "나는 섬이에요 독후 활동지 첫 장",
+    "src": "assets/covers/p_1mJGakiP18N89uYtIKIrUUrbEI4D3aQkh.webp"
+   }
   },
   {
    "id": "kid-07",
@@ -229,10 +253,11 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1SsVQ2sJ3gPM3tYsTqprgaybx75Qy7ylC/view",
-      "light": false,
+      "view": "pdf/1SsVQ2sJ3gPM3tYsTqprgaybx75Qy7ylC.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1SsVQ2sJ3gPM3tYsTqprgaybx75Qy7ylC",
-      "mb": 15.0
+      "mb": 15.0,
+      "pages": 12
      }
     },
     {
@@ -244,10 +269,11 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1-_cPtsbRZUJhkmwetdRfv47F12ux99Es/view",
-      "light": false,
+      "view": "pdf/1-_cPtsbRZUJhkmwetdRfv47F12ux99Es.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1-_cPtsbRZUJhkmwetdRfv47F12ux99Es",
-      "mb": 15.3
+      "mb": 15.3,
+      "pages": 12
      }
     },
     {
@@ -266,7 +292,12 @@
       "pages": 1
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "나무늘보니까 교사용 지도안 첫 장",
+    "src": "assets/covers/p_1SsVQ2sJ3gPM3tYsTqprgaybx75Qy7ylC.webp"
+   }
   },
   {
    "id": "kid-08",
@@ -415,13 +446,19 @@
      "k": "sheet",
      "label": "독후 활동지",
      "pdf": {
-      "view": "https://drive.google.com/file/d/1FeAz11ke-JCqjYMArrU1kLLzffe2krlv/view",
-      "light": false,
+      "view": "pdf/1FeAz11ke-JCqjYMArrU1kLLzffe2krlv.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1FeAz11ke-JCqjYMArrU1kLLzffe2krlv",
-      "mb": 7.9
+      "mb": 7.9,
+      "pages": 8
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "돈은 어디에서 오는 걸까 독후 활동지 첫 장",
+    "src": "assets/covers/p_1FeAz11ke-JCqjYMArrU1kLLzffe2krlv.webp"
+   }
   },
   {
    "id": "kid-12",
@@ -536,10 +573,11 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1s-WhBG3zzh1AF0cn10o410ZYBCBdXWHp/view",
-      "light": false,
+      "view": "pdf/1s-WhBG3zzh1AF0cn10o410ZYBCBdXWHp.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1s-WhBG3zzh1AF0cn10o410ZYBCBdXWHp",
-      "mb": 18.6
+      "mb": 18.6,
+      "pages": 12
      }
     },
     {
@@ -551,10 +589,11 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1LdYoeBsk_qEztuw6_9cAQ79apjYF8JvR/view",
-      "light": false,
+      "view": "pdf/1LdYoeBsk_qEztuw6_9cAQ79apjYF8JvR.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1LdYoeBsk_qEztuw6_9cAQ79apjYF8JvR",
-      "mb": 19.0
+      "mb": 19.0,
+      "pages": 12
      }
     },
     {
@@ -573,7 +612,12 @@
       "pages": 1
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "사자 놀이를 할까 교사용 지도안 첫 장",
+    "src": "assets/covers/p_1s-WhBG3zzh1AF0cn10o410ZYBCBdXWHp.webp"
+   }
   },
   {
    "id": "kid-16",
@@ -623,10 +667,11 @@
      "k": "sheet",
      "label": "독후 활동지",
      "pdf": {
-      "view": "https://drive.google.com/file/d/11qRt4hJWHqBgEizHqywbSvlEriViTcK7/view",
-      "light": false,
+      "view": "pdf/11qRt4hJWHqBgEizHqywbSvlEriViTcK7.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=11qRt4hJWHqBgEizHqywbSvlEriViTcK7",
-      "mb": 16.9
+      "mb": 16.9,
+      "pages": 8
      },
      "hwp": {
       "href": "https://drive.google.com/uc?export=download&id=1nLhmEJCaorDDX8yRueuY7kFPOn7d7VBS",
@@ -634,7 +679,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "아빠 얼굴에 화난 비가 내려요 독후 활동지 첫 장",
+    "src": "assets/covers/p_11qRt4hJWHqBgEizHqywbSvlEriViTcK7.webp"
+   }
   },
   {
    "id": "kid-18",
@@ -658,13 +708,19 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1g3LTNTaBS5aV2LNLIm3ofBu4Fw-3EdXU/view",
-      "light": false,
+      "view": "pdf/1g3LTNTaBS5aV2LNLIm3ofBu4Fw-3EdXU.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1g3LTNTaBS5aV2LNLIm3ofBu4Fw-3EdXU",
-      "mb": 12.7
+      "mb": 12.7,
+      "pages": 8
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "아빠를 찾아요 독후 활동지 첫 장",
+    "src": "assets/covers/p_1g3LTNTaBS5aV2LNLIm3ofBu4Fw-3EdXU.webp"
+   }
   },
   {
    "id": "kid-19",
@@ -688,13 +744,19 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1T-K5X5n7QizMQM1V3G-aGCMy88u_imnx/view",
-      "light": false,
+      "view": "pdf/1T-K5X5n7QizMQM1V3G-aGCMy88u_imnx.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1T-K5X5n7QizMQM1V3G-aGCMy88u_imnx",
-      "mb": 7.3
+      "mb": 7.3,
+      "pages": 8
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "야구쟁이 독후 활동지 첫 장",
+    "src": "assets/covers/p_1T-K5X5n7QizMQM1V3G-aGCMy88u_imnx.webp"
+   }
   },
   {
    "id": "kid-20",
@@ -763,10 +825,11 @@
      "k": "sheet",
      "label": "유아용 독후 활동지",
      "pdf": {
-      "view": "https://drive.google.com/file/d/1_Opg_J70cTkMifleNIr3YaekNzTqYqks/view",
-      "light": false,
+      "view": "pdf/1_Opg_J70cTkMifleNIr3YaekNzTqYqks.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1_Opg_J70cTkMifleNIr3YaekNzTqYqks",
-      "mb": 8.4
+      "mb": 8.4,
+      "pages": 8
      },
      "hwp": {
       "href": "https://drive.google.com/uc?export=download&id=1wU4ay3v2swrP_SOlWGMqV-8FYIsnz-5f",
@@ -774,7 +837,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "펭귄의 모험 유아용 독후 활동지 첫 장",
+    "src": "assets/covers/p_1_Opg_J70cTkMifleNIr3YaekNzTqYqks.webp"
+   }
   },
   {
    "id": "kid-22",
@@ -798,10 +866,11 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1NSx6DBt_TBUXq7QiZXjlk_NbVoVjjQsb/view",
-      "light": false,
+      "view": "pdf/1NSx6DBt_TBUXq7QiZXjlk_NbVoVjjQsb.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1NSx6DBt_TBUXq7QiZXjlk_NbVoVjjQsb",
-      "mb": 12.7
+      "mb": 12.7,
+      "pages": 12
      }
     },
     {
@@ -813,10 +882,11 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1Vx3OBriq_pKwmuVaffkV1Yv7J4ER9pBC/view",
-      "light": false,
+      "view": "pdf/1Vx3OBriq_pKwmuVaffkV1Yv7J4ER9pBC.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1Vx3OBriq_pKwmuVaffkV1Yv7J4ER9pBC",
-      "mb": 13.2
+      "mb": 13.2,
+      "pages": 12
      }
     },
     {
@@ -835,7 +905,12 @@
       "pages": 1
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "행복한 화가, 나의 형 교사용 지도안 첫 장",
+    "src": "assets/covers/p_1NSx6DBt_TBUXq7QiZXjlk_NbVoVjjQsb.webp"
+   }
   },
   {
    "id": "kid-23",
@@ -859,10 +934,11 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1Q1zJrnprdi-M0AHXHRGnbXW7VhP4l0Tm/view",
-      "light": false,
+      "view": "pdf/1Q1zJrnprdi-M0AHXHRGnbXW7VhP4l0Tm.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1Q1zJrnprdi-M0AHXHRGnbXW7VhP4l0Tm",
-      "mb": 24.0
+      "mb": 24.0,
+      "pages": 12
      }
     },
     {
@@ -874,10 +950,11 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1TUsN28MK_eSGnuxA5p00PtNBUkuUvT9j/view",
-      "light": false,
+      "view": "pdf/1TUsN28MK_eSGnuxA5p00PtNBUkuUvT9j.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1TUsN28MK_eSGnuxA5p00PtNBUkuUvT9j",
-      "mb": 24.1
+      "mb": 24.1,
+      "pages": 12
      }
     },
     {
@@ -896,7 +973,12 @@
       "pages": 1
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "헨리의 자유 상자 교사용 지도안 첫 장",
+    "src": "assets/covers/p_1Q1zJrnprdi-M0AHXHRGnbXW7VhP4l0Tm.webp"
+   }
   },
   {
    "id": "teen-01",
@@ -1968,23 +2050,30 @@
      "k": "teacher",
      "label": "교사용 지도안",
      "pdf": {
-      "view": "https://drive.google.com/file/d/1IkdbwsKNZjZP-5fvd4CHRXFPzt6q33JR/view",
-      "light": false,
+      "view": "pdf/1IkdbwsKNZjZP-5fvd4CHRXFPzt6q33JR.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1IkdbwsKNZjZP-5fvd4CHRXFPzt6q33JR",
-      "mb": 9.4
+      "mb": 9.4,
+      "pages": 12
      }
     },
     {
      "k": "student",
      "label": "학생용 활동지",
      "pdf": {
-      "view": "https://drive.google.com/file/d/1A1F4D4-x9wVh3RMMR2-elgrr02XaS_Aw/view",
-      "light": false,
+      "view": "pdf/1A1F4D4-x9wVh3RMMR2-elgrr02XaS_Aw.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1A1F4D4-x9wVh3RMMR2-elgrr02XaS_Aw",
-      "mb": 9.4
+      "mb": 9.4,
+      "pages": 12
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "의사 노빈손과 위기일발 응급의료센터 교사용 지도안 첫 장",
+    "src": "assets/covers/p_1IkdbwsKNZjZP-5fvd4CHRXFPzt6q33JR.webp"
+   }
   },
   {
    "id": "high-14",
@@ -2093,10 +2182,11 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1ttqT9MLrFzDbB46U8MQRtUtbn6NH0Q6Z/view",
-      "light": false,
+      "view": "pdf/1ttqT9MLrFzDbB46U8MQRtUtbn6NH0Q6Z.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1ttqT9MLrFzDbB46U8MQRtUtbn6NH0Q6Z",
-      "mb": 10.1
+      "mb": 10.1,
+      "pages": 16
      }
     },
     {
@@ -2108,10 +2198,11 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1_8YLy-XPmmEK33tXbdOqtIExbiI_PS19/view",
-      "light": false,
+      "view": "pdf/1_8YLy-XPmmEK33tXbdOqtIExbiI_PS19.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1_8YLy-XPmmEK33tXbdOqtIExbiI_PS19",
-      "mb": 10.1
+      "mb": 10.1,
+      "pages": 16
      }
     },
     {
@@ -2123,13 +2214,19 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/13Y748hu-aeJyVv45-R_FPiUwa4VRm80Q/view",
-      "light": false,
+      "view": "pdf/13Y748hu-aeJyVv45-R_FPiUwa4VRm80Q.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=13Y748hu-aeJyVv45-R_FPiUwa4VRm80Q",
-      "mb": 9.7
+      "mb": 9.7,
+      "pages": 5
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "도토리 탐정 교사용 지도안 첫 장",
+    "src": "assets/covers/p_1ttqT9MLrFzDbB46U8MQRtUtbn6NH0Q6Z.webp"
+   }
   },
   {
    "id": "low-02",
@@ -2283,20 +2380,22 @@
      "k": "sheet",
      "label": "저학년용 독후 활동지",
      "pdf": {
-      "view": "https://drive.google.com/file/d/1xSWCnZSU0mcIW8oisFr1Rujw9SMrBxgk/view",
-      "light": false,
+      "view": "pdf/1xSWCnZSU0mcIW8oisFr1Rujw9SMrBxgk.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1xSWCnZSU0mcIW8oisFr1Rujw9SMrBxgk",
-      "mb": 7.3
+      "mb": 7.3,
+      "pages": 8
      }
     },
     {
      "k": "sheet",
      "label": "중학년용 독후 활동지",
      "pdf": {
-      "view": "https://drive.google.com/file/d/1QbFvJ3fzwHvM7NoQNwyMNIRLRakntJeY/view",
-      "light": false,
+      "view": "pdf/1QbFvJ3fzwHvM7NoQNwyMNIRLRakntJeY.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1QbFvJ3fzwHvM7NoQNwyMNIRLRakntJeY",
-      "mb": 14.4
+      "mb": 14.4,
+      "pages": 7
      }
     }
    ],
@@ -2359,10 +2458,11 @@
      "k": "teacher",
      "label": "교사용 지도안",
      "pdf": {
-      "view": "pdf/udang_teacher.pdf",
+      "view": "pdf/15iR4jx5_KAO8Hu2PIPc8bX2ebDGD-hHW.pdf",
       "light": true,
       "href": "https://drive.google.com/uc?export=download&id=15iR4jx5_KAO8Hu2PIPc8bX2ebDGD-hHW",
-      "mb": 13.0
+      "mb": 13.0,
+      "pages": 24
      },
      "hwp": {
       "href": "https://drive.google.com/uc?export=download&id=1iHS_Pq4unRETzQuUpNS491vV0jZel9aQ",
@@ -2374,10 +2474,11 @@
      "k": "student",
      "label": "학생용 활동지",
      "pdf": {
-      "view": "pdf/udang_student.pdf",
+      "view": "pdf/1MuFNM27Ja3Lelf1YLNKKPCt_9bOs1mcp.pdf",
       "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1MuFNM27Ja3Lelf1YLNKKPCt_9bOs1mcp",
-      "mb": 6.3
+      "mb": 6.3,
+      "pages": 12
      },
      "hwp": {
       "href": "https://drive.google.com/uc?export=download&id=1eYfq3tm_XdI7Y0tXgyQSIMsSGnMhu-8A",
@@ -2955,13 +3056,19 @@
      "k": "sheet",
      "label": "독후 활동지",
      "pdf": {
-      "view": "https://drive.google.com/file/d/1O7xWDaMnxBZcD8gLytAMy8G9Si4br2CF/view",
-      "light": false,
+      "view": "pdf/1O7xWDaMnxBZcD8gLytAMy8G9Si4br2CF.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1O7xWDaMnxBZcD8gLytAMy8G9Si4br2CF",
-      "mb": 7.7
+      "mb": 7.7,
+      "pages": 8
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "어찌씨가 키득키득 독후 활동지 첫 장",
+    "src": "assets/covers/p_1O7xWDaMnxBZcD8gLytAMy8G9Si4br2CF.webp"
+   }
   },
   {
    "id": "mid-14",
@@ -3100,10 +3207,11 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1-2Zjro8kc5csIW_srEICFSWjB1fC8re8/view",
-      "light": false,
+      "view": "pdf/1-2Zjro8kc5csIW_srEICFSWjB1fC8re8.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1-2Zjro8kc5csIW_srEICFSWjB1fC8re8",
-      "mb": 8.8
+      "mb": 8.8,
+      "pages": 12
      }
     },
     {
@@ -3115,10 +3223,11 @@
       "ext": "hwp"
      },
      "pdf": {
-      "view": "https://drive.google.com/file/d/1ECk419pm4DYIvMkqfrDR_JPTleMZZaXg/view",
-      "light": false,
+      "view": "pdf/1ECk419pm4DYIvMkqfrDR_JPTleMZZaXg.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1ECk419pm4DYIvMkqfrDR_JPTleMZZaXg",
-      "mb": 9.7
+      "mb": 9.7,
+      "pages": 12
      }
     },
     {
@@ -3130,7 +3239,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "하늘을 나는 고양이 마리 교사용 지도안 첫 장",
+    "src": "assets/covers/p_1-2Zjro8kc5csIW_srEICFSWjB1fC8re8.webp"
+   }
   },
   {
    "id": "mid-17",
@@ -3182,10 +3296,11 @@
      "k": "teacher",
      "label": "교사용 지도안",
      "pdf": {
-      "view": "https://drive.google.com/file/d/1lhpZbsgjZe14pQHimZlYLQR7mz-00Fnr/view",
-      "light": false,
+      "view": "pdf/1lhpZbsgjZe14pQHimZlYLQR7mz-00Fnr.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1lhpZbsgjZe14pQHimZlYLQR7mz-00Fnr",
-      "mb": 25.9
+      "mb": 25.9,
+      "pages": 28
      },
      "hwp": {
       "href": "https://drive.google.com/uc?export=download&id=1T9GVXiU2f0IQ7toh4E8GzmPDX3uKI3S_",
@@ -3197,10 +3312,11 @@
      "k": "student",
      "label": "학생용 활동지",
      "pdf": {
-      "view": "https://drive.google.com/file/d/1ek4pn27eYBY4KTVHlMoj7h6CHiiOMSpV/view",
-      "light": false,
+      "view": "pdf/1ek4pn27eYBY4KTVHlMoj7h6CHiiOMSpV.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1ek4pn27eYBY4KTVHlMoj7h6CHiiOMSpV",
-      "mb": 20.6
+      "mb": 20.6,
+      "pages": 16
      },
      "hwp": {
       "href": "https://drive.google.com/uc?export=download&id=14dSaYhS0Y56dSmL7UPQ9f11ZL7yTSvGc",
@@ -3208,7 +3324,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "황룡의 속담 권법 1권 교사용 지도안 첫 장",
+    "src": "assets/covers/p_1lhpZbsgjZe14pQHimZlYLQR7mz-00Fnr.webp"
+   }
   },
   {
    "id": "mid-19",
@@ -3227,10 +3348,11 @@
      "k": "teacher",
      "label": "교사용 지도안",
      "pdf": {
-      "view": "https://drive.google.com/file/d/1liCpPqCJ2XQlvbT2PDgA4uWwNGUq1cL4/view",
-      "light": false,
+      "view": "pdf/1liCpPqCJ2XQlvbT2PDgA4uWwNGUq1cL4.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1liCpPqCJ2XQlvbT2PDgA4uWwNGUq1cL4",
-      "mb": 19.3
+      "mb": 19.3,
+      "pages": 24
      },
      "hwp": {
       "href": "https://drive.google.com/uc?export=download&id=1tiY71Ku7OzXk2zQZNCWI_Y83BOyUG-se",
@@ -3242,10 +3364,11 @@
      "k": "student",
      "label": "학생용 활동지",
      "pdf": {
-      "view": "https://drive.google.com/file/d/1sBjeEmJcX1suhvnqoSnmRHYivxmSTTj-/view",
-      "light": false,
+      "view": "pdf/1sBjeEmJcX1suhvnqoSnmRHYivxmSTTj-.pdf",
+      "light": true,
       "href": "https://drive.google.com/uc?export=download&id=1sBjeEmJcX1suhvnqoSnmRHYivxmSTTj-",
-      "mb": 17.1
+      "mb": 17.1,
+      "pages": 16
      },
      "hwp": {
       "href": "https://drive.google.com/uc?export=download&id=1mSzIrYkyyQei-asWy431kIKOZHR42rTF",
@@ -3253,7 +3376,12 @@
       "ext": "hwp"
      }
     }
-   ]
+   ],
+   "cover": {
+    "kind": "sheet",
+    "alt": "황룡의 속담 권법 2권 교사용 지도안 첫 장",
+    "src": "assets/covers/p_1liCpPqCJ2XQlvbT2PDgA4uWwNGUq1cL4.webp"
+   }
   },
   {
    "id": "mid-20",
