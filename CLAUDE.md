@@ -11,9 +11,9 @@
 
 ## 현재 상태 (2026-10-20 기준)
 
-- 책 목록은 구글 드라이브 <1)독서지도안> 폴더(백업 폴더 제외)에서 만듭니다. 2026-10-20 기준 77권(라면소설 3권, 황룡의 속담 권법 4권을 나눠 센 수), PDF 105개, 한글 파일 다수.
+- 책 목록은 구글 드라이브 <1)독서지도안> 폴더(백업 폴더 제외)에서 만듭니다. 2026-10-20 기준 77권(라면소설 3권, 황룡의 속담 권법 4권을 나눠 센 수), PDF 105개(다자구할머니는 원본과 용량줄인버전 2개가 한 자료라서 화면 자료는 104개), 한글 파일 다수.
 - 화면으로 보기 = 사이트 안 줄인 사본(docs/pdf/<드라이브ID>.pdf). 인쇄용 원본 받기, 한글 파일 받기 = 드라이브 원본 링크.
-- 줄인 사본은 105개 중 73개만 있습니다. 나머지(파일당 약 6.5MB 이상)는 드라이브 커넥터 한도로 못 받아서 드라이브 미리보기로 연결돼 있습니다. 컨테이너에서 drive.google.com 접속이 허용되면 받아서 줄일 것.
+- 줄인 사본은 104개 모두 있습니다 (2026-10-20, 사이트 전체 약 186MiB). 환경 네트워크에 drive.google.com, drive.usercontent.google.com 이 허용돼 있어 컨테이너에서 원본을 바로 받을 수 있습니다: `curl -L -o source-pdfs/<ID>.pdf "https://drive.usercontent.google.com/download?id=<ID>&export=download&confirm=t"`
 - 학년 탭은 드라이브 폴더 이름 그대로 5개(유아, 초등 저학년, 초등 중학년, 초등 고학년, 청소년). 주제 분류는 근거가 없어 비워 두었고, 비어 있으면 화면에서 주제 줄이 숨겨집니다.
 - 소개 문장, 수업 흐름, 미리보기 같은 자세한 정보는 시안 3권(udang, jin, mind)에만 있습니다 (notes/rich_books.json).
 - 임시값과 미확인 사항은 notes/open-questions.md를 먼저 읽으세요.
@@ -31,7 +31,7 @@ docs/                 사이트 전체. GitHub Pages가 이 폴더를 그대로 
   assets/ui/          상단 일러스트, 아이콘, 책더미, 파비콘
   pdf/                웹용으로 줄인 PDF
 notes/                결정 기록, 열린 질문, 목업 이미지. 게시되지 않습니다
-scripts/              작업 도구 (PDF 압축, 표지/미리보기 추출, 데이터 점검, 화면 점검)
+scripts/              작업 도구 (PDF 압축, 압축 결과 비교, 표지/미리보기 추출, 데이터 점검, 화면 점검)
 source-pdfs/          원본 PDF 임시 보관. git에는 올라가지 않습니다
 ```
 
@@ -52,8 +52,8 @@ fetch로 books.json을 읽기 때문에 index.html을 더블클릭(file://)으�
 books.json은 손으로 고치지 않고 스크립트로 다시 만듭니다.
 
 1. 드라이브 목록을 새로 읽어 notes/drive_inventory.json 을 갱신합니다 (2026-10-20에는 사용자 크롬으로 읽음. 형식은 notes/drive_inventory_raw.txt 참고).
-2. 새 PDF를 source-pdfs/<드라이브ID>.pdf 로 받습니다 (드라이브 커넥터로 받았다면 `python3 scripts/ingest_drive_downloads.py <tool-results 폴더>`).
-3. `python3 scripts/optimize_all.py` 로 화면용 사본을 만들고 쪽수를 notes/pdf_pages.json 에 모읍니다.
+2. 새 PDF를 source-pdfs/<드라이브ID>.pdf 로 받습니다 (위의 curl 명령. 드라이브 커넥터로 받았다면 `python3 scripts/ingest_drive_downloads.py <tool-results 폴더>`).
+3. `python3 scripts/optimize_all.py` 로 화면용 사본을 만들고 쪽수를 notes/pdf_pages.json 에 모읍니다. 이어서 `python3 scripts/compare_pdfs.py --save` 로 원본과 똑같이 보이는지 쪽마다 확인합니다.
 4. `python3 scripts/make_covers.py` 로 카드용 첫 장 그림을 만듭니다.
 5. `python3 scripts/build_books.py` 로 docs/data/books.json 을 다시 만듭니다. 제목 고치기, 시리즈 나누기 같은 예외는 이 스크립트 위쪽 표에 있습니다.
 6. `python3 scripts/validate_books.py`, 서버를 켜고 `node scripts/smoke_test.js` 로 점검합니다.

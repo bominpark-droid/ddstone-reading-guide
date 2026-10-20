@@ -33,11 +33,6 @@ TINT = {gid: tint for gid, _, _, tint in GRADES}
 TITLE_FIX = {"야호슈퍼의비밀": "야호슈퍼의 비밀", "펭귄의모험": "펭귄의 모험"}
 # 기존 시안 3권과 이어 붙일 id
 RICH_ID = {"우당탕 마을의 꿈 도둑": "udang", "14살부터 시작하는 나의 첫 진로 수업": "jin", "오늘 내 마음에 어울리는 말": "mind"}
-# 드라이브에 없는 원본 대신 임시로 쓰는 화면용 사본 (시안 때 받은 파일). 원본을 받으면 지움
-LOCAL_VIEW = {
-    "15iR4jx5_KAO8Hu2PIPc8bX2ebDGD-hHW": "pdf/udang_teacher.pdf",
-    "1MuFNM27Ja3Lelf1YLNKKPCt_9bOs1mcp": "pdf/udang_student.pdf",
-}
 
 KIND_LABEL = {"teacher": "교사용 지도안", "student": "학생용 활동지", "answer": "정답지", "sheet": "독후 활동지"}
 KIND_ORDER = {"teacher": 0, "student": 1, "sheet": 2, "answer": 3, "zip": 4}
@@ -135,7 +130,7 @@ for key, b in books.items():
             if "pdf" in m:
                 print("WARN 같은 자료에 PDF 가 둘:", b["title"], f["name"])
             local = DOCS / "pdf" / f"{f['id']}.pdf"
-            view = f"pdf/{f['id']}.pdf" if local.exists() else LOCAL_VIEW.get(f["id"])
+            view = f"pdf/{f['id']}.pdf" if local.exists() else None
             m["pdf"] = {"view": view or view_url(f["id"]), "light": bool(view), "href": dl_url(f["id"]), "mb": mb(f["size"])}
             if f["id"] in pages: m["pdf"]["pages"] = pages[f["id"]]
         else:
