@@ -155,8 +155,7 @@ svg.i{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.9;stro
 .fb span{display:none}
 .cb{display:grid;gap:4px;align-content:start;min-width:0}
 .ct{font-size:15.5px;font-weight:700;line-height:1.4;letter-spacing:-.01em;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-wrap:pretty}
-.ca{font-size:12.5px;color:var(--ink-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.ci{font-size:12.5px;color:var(--ink-2)}
+.ca{font-size:12.5px;line-height:1.45;color:var(--ink-2)}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
 .tag{display:inline-flex;align-items:center;gap:4px;height:24px;padding:0 10px;border-radius:999px;background:var(--bg,#eee);color:var(--fg,var(--ink));font-size:12px;font-weight:700;white-space:nowrap}
 .tag svg.i{width:13px;height:13px}

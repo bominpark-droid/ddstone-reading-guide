@@ -78,7 +78,7 @@ function renderList(){
       const ft=ks.map(k=>'<span class="tag '+FK[k][0]+'">'+IC[k]+FK[k][1]+'</span>').join('')+(b.pdf?'':'<span class="tag fh">한글 파일</span>');
       return '<li><button type="button" class="card" data-id="'+b.id+'">'
         +'<span class="cv" style="--tint:'+b.tint+'">'+coverHtml(b)+'</span>'
-        +'<span class="cb"><span class="ct">'+esc(b.title)+'</span>'+(b.authors?'<span class="ca">'+esc(b.authors)+'</span>':'')+'<span class="ci">'+esc(b.info)+'</span>'
+        +'<span class="cb"><span class="ct">'+esc(b.title)+'</span>'+(b.by?'<span class="ca">'+esc(b.by)+'</span>':'')
         +'<span class="tags">'+gtag(b)+ft+'</span></span></button></li>';
     }).join(''):empty;
   }else{
