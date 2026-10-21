@@ -7,6 +7,7 @@
 - 책 한 권 = 학년 폴더 바로 아래 폴더 하나. 예외(시리즈 나누기, 같은 책 합치기)는 아래 표에 있습니다.
 - 화면으로 보기: docs/pdf/<드라이브ID>.pdf 가 있으면 그 줄인 사본, 없으면 드라이브 미리보기.
 - 인쇄용 원본 받기, 한글 파일 받기: 드라이브 원본 다운로드 링크.
+- 저자 줄(by)은 notes/authors.json 에서 제목으로 찾아 붙입니다. 시안 3권은 rich_books.json 의 by 를 씁니다.
 - 소개 문장, 주제, 미리보기처럼 사람이 확인한 내용은 notes/rich_books.json 에서 가져와 합칩니다.
 """
 import json, re
@@ -18,6 +19,7 @@ DOCS = ROOT / "docs"
 inv = json.loads((ROOT / "notes/drive_inventory.json").read_text(encoding="utf-8"))
 rich = {b["id"]: b for b in json.loads((ROOT / "notes/rich_books.json").read_text(encoding="utf-8"))["books"]}
 hwp_cover = {v["title"]: f"assets/covers/{k}.webp" for k, v in json.loads((ROOT / "notes/hwp_covers.json").read_text(encoding="utf-8"))["books"].items()}
+authors = {k: v["by"] for k, v in json.loads((ROOT / "notes/authors.json").read_text(encoding="utf-8"))["books"].items()}
 pages = json.loads((ROOT / "notes/pdf_pages.json").read_text()) if (ROOT / "notes/pdf_pages.json").exists() else {}
 
 GRADES = [
@@ -171,6 +173,8 @@ for key, b in books.items():
             if r.get(k): book[k] = r[k]
         if r.get("series") and not book["series"]: book["series"] = r["series"]
         if r.get("note") and not book["note"]: book["note"] = r["note"]
+    if "by" not in book and authors.get(b["title"]):
+        book["by"] = authors[b["title"]]
     hc = hwp_cover.get(b["title"])  # 한글 파일 안 표지 (hwp_covers.py 로 만든 그림)
     if "cover" not in book and hc and (DOCS / hc).exists():
         book["cover"] = {"kind": "book", "alt": f"{b['title']} 표지", "src": hc}

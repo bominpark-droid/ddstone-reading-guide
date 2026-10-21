@@ -65,7 +65,7 @@ books.json은 손으로 고치지 않고 스크립트로 다시 만듭니다.
 | 필드 | 설명 |
 |---|---|
 | id | 영문 소문자, 숫자, -, _. 시안 3권은 udang, jin, mind, 나머지는 <학년id>-<번호> |
-| title, grades, series, note, tint, info | 제목, 학년 id 목록, 시리즈, 덧붙임(절판 등), 카드 배경색, 카드 한 줄 |
+| title, grades, series, note, tint, info, by | 제목, 학년 id 목록, 시리즈, 덧붙임(절판 등), 카드 배경색, 자료 종류 요약, 저자 줄(카드와 상세 화면, notes/authors.json) |
 | pdf, hwp | 이 책에 PDF / 한글 파일이 하나라도 있는지 |
 | materials | 자료 목록. {k: teacher·student·sheet·answer·zip, label, pdf:{view, light, href, mb, pages}, hwp:{href, mb, ext}, zip:{href, mb}} |
 | cover | 없으면 글자 표지. 있으면 {kind, alt, src} |
