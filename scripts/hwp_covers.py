@@ -42,14 +42,17 @@ def main():
         dst = OUT / f"{bid}.webp"
         if dst.exists():
             continue
-        if "zip" in p:
+        if "image" in p:  # 한글 파일에 표지가 없어 따로 받은 그림
+            img = Image.open(ROOT / p["image"]).convert("RGB")
+        elif "zip" in p:
             z = zipfile.ZipFile(io.BytesIO(fetch(p["zip"], "zip")))
             names = [i for i in z.infolist() if i.filename.endswith(".hwp")]
             dec = lambda i: i.filename if i.flag_bits & 0x800 else i.filename.encode("cp437").decode("cp949")
             data = z.read(next(i for i in names if p["member"] in dec(i)))
         else:
             data = fetch(p["hwp"], "hwp")
-        img = bin_image(data, p["bin"])
+        if "image" not in p:
+            img = bin_image(data, p["bin"])
         if "crop" in p:
             img = img.crop(tuple(p["crop"]))
         # 표지 둘레의 흰 여백은 잘라 냄

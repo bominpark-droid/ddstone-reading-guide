@@ -1,5 +1,5 @@
 {
- "_설명": "한글 파일만 있는 책의 표지. 한글 파일 안에 들어 있는 그림(BinData) 중 책 표지를 사람이 눈으로 골라 적은 표. scripts/hwp_covers.py 가 읽음. 키는 그림 파일 이름(docs/assets/covers/<키>.webp)이고, build_books.py 는 title 이 같은 책에만 붙임 (책 id 가 바뀌어도 엉뚱한 책에 붙지 않게). 너의 마음은 하늘과 같아(kid-09)는 한글 파일 6개 안에 표지 그림이 없어 비워 둠 (2026-10-20 확인)",
+ "_설명": "한글 파일만 있는 책의 표지. 한글 파일 안에 들어 있는 그림(BinData) 중 책 표지를 사람이 눈으로 골라 적은 표. scripts/hwp_covers.py 가 읽음. 키는 그림 파일 이름(docs/assets/covers/<키>.webp)이고, build_books.py 는 title 이 같은 책에만 붙임 (책 id 가 바뀌어도 엉뚱한 책에 붙지 않게). 한글 파일 안에 표지가 없는 책은 image 에 사용자가 준 그림 경로를 적음",
  "books": {
   "high-02": {
    "hwp": "1iJY_gzd_hq6E9GdQO0oOIiwl2djNiRna",
@@ -112,6 +112,11 @@
    "member": "학생용",
    "bin": "BIN0001.bmp",
    "title": "고지식 박사의 무럭무럭쑥쑥 알약"
+  },
+  "kid-09": {
+   "image": "notes/covers/kid-09.jpeg",
+   "title": "너의 마음은 하늘과 같아",
+   "출처": "사용자가 준 예스24 화면 스크린샷 (2026-10-20). 한글 파일 안에는 표지 그림이 없음"
   }
  }
 }
